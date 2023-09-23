@@ -108,6 +108,20 @@ export default function Home() {
           </p>
         </a>
 
+        <a
+          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            New component addition{' '}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            New component added for github.
+          </p>
+        </a>
+
       </div>
     </main>
   )
