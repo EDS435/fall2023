@@ -1,10 +1,15 @@
-import BottomNav from '../Components/BottomNav';
+import React from 'react';
+import Link from 'next/link';
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="min-h-screen bg-gray-200">
-      <h1 className="text-center text-2xl p-4">Tester Page</h1>
-      <BottomNav />
+    <div>
+      {/* Home Page Content */}
+      <Link href="/recipes">
+        <a>Go to Recipes</a>
+      </Link>
     </div>
   );
-}
+};
+
+export default Home;
